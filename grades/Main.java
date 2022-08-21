@@ -1,5 +1,5 @@
 package grades;
-// TODO: ADD READ FROM FILE, SORTING
+// TODO: ADD READ FROM FILE, TIMING THE SORTS
 import java.util.*;
 public class Main {
     static void display(double[] arr) {
