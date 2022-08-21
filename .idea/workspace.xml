@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="974c0eda-7342-46bf-89b2-61aded8294ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/array-projects-cs2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTT/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades/grades.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/array-projects-cs2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/array-projects-cs2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/array-projects-cs2/SumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/array-projects-cs2/SumArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +45,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/vroom/OneDrive/Documents/GitHub/array-projects-cs2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grades.Main" />
+      <module name="array-projects-cs2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SumArray" />
       <module name="array-projects-cs2" />
@@ -56,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SumArray" />
       </list>
     </recent_temporary>
@@ -84,5 +100,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
