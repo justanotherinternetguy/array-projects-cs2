@@ -14,45 +14,46 @@
 import java.io.*;
 import java.util.*;
 
-// TODO: Overload + test for DOUBLES
+// TODO: Overload + test for DOUBLES + escape/end UX
 
 public class SumArray {
-    static void display(int[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j]);
-            }
-            System.out.println();
-        }
+  static void display(int[][] matrix) {
+    for (int i = 0; i < matrix.length; i++) {
+      for (int j = 0; j < matrix[i].length; j++) {
+        System.out.print(matrix[i][j] + " ");
+      }
+      System.out.println();
     }
+  }
 
-    static double average_rows(int[][] matrix) {
-        double avg = 0;
-        int sum = 0;
-
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                sum += j;
-            }
-        }
-        avg = sum / 20;
-        return avg;
+  static double average(int[][] matrix) {
+//    one variable / 20
+    double x = 0;
+    // traverse matrix + sum
+    for (int i = 0; i < matrix.length; i++) {
+      for (int j = 0; j < matrix[i].length; j++) {
+        x += matrix[i][j];
+      }
     }
-    
+    return x/20;
+  }
 
-    static int[][] matrix = new int[5][4];
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        // user input, row by row
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                matrix[i][j] = sc.nextInt();
-            }
-            System.out.println("--- NEW ROW ---");
-        }
-        display(matrix);
-        System.out.println(average_rows(matrix));
+  static void takeInputs(int[][] matrix) {
+    Scanner sc = new Scanner(System.in);
+    // user input, row by row
+    for (int i = 0; i < matrix.length; i++) {
+      for (int j = 0; j < matrix[i].length; j++) {
+        matrix[i][j] = sc.nextInt();
+      }
+      System.out.println("--- NEW ROW ---");
     }
+  }
+
+  static int[][] matrix = new int[5][4];
+
+  public static void main(String[] args) {
+    takeInputs(matrix);
+    display(matrix);
+    System.out.println(average(matrix));
+  }
 }
